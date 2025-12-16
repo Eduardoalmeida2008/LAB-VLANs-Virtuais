@@ -52,13 +52,17 @@ exit
 
 Switch
 VLAN 10 e VLAN 20 criadas e atribuídas às portas correspondentes
+
 Conexão trunk para o roteador
+
 Cabos conectados corretamente: PCs → Switch → Roteador
 
 
 Testes de Conectividade
 Ping do PC1 para o gateway 192.168.10.1 → ✅ Sucesso
+
 Ping do PC2 para o gateway 192.168.20.1 → ✅ Sucesso
+
 Ping entre PCs de VLANs diferentes → ✅ Sucesso após configuração de subinterfaces no roteador
 
 
